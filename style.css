@@ -5,6 +5,7 @@
   --text-color: #757575;
   --backround-color1: #2f303a;
   --backround-color2: #f5f4fa;
+  --border-color: #eeeeee;
 }
 body {
   color: var(--text-color);
@@ -126,4 +127,34 @@ ul {
   font-size: 26px;
   line-height: 100%;
   letter-spacing: 3%;
+}
+.types-btn {
+  background-color: var(--backround-color2);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--pretitle-color);
+}
+.types-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--title-color);
+}
+.works-item {
+  background-color: var(--title-color);
+  border: 1px solid var(--border-color);
+}
+.works-names {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 6%;
+  color: var(--pretitle-color);
+}
+.works-types {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.87;
 }
