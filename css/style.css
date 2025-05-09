@@ -19,7 +19,6 @@ body {
 .container{
   width: 1200px;
   padding: 0 15px;
-  outline: solid red;
   margin: 0 auto;
 }
 .logo {
@@ -29,10 +28,7 @@ body {
   font-size: 26px;
   line-height: 100%;
   letter-spacing: 3%;
-  margin: 24px 93px 25px 215px;
-}
-.nav{
-  margin:32px 344px 32px 0;
+  margin: 24px 0 25px 0;
 }
 .nav-item, .contact-item{
   margin-right:50px;
@@ -49,7 +45,6 @@ body {
   text-align: center;
   color: var(--pretitle-color);
   margin: 0 auto;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 .nav-link {
@@ -79,17 +74,17 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: var(--title-color);
+  margin: 0 auto;
+  width: 696px;
 }
 .solution,
 .footer {
   background-color: var(--backround-color1);
 }
-.title{
-  margin: 0 auto;
-  padding-top:200px;
-}
 .solution-btn {
+  display: block;
   margin: 0 auto;
+  margin-top: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -98,6 +93,14 @@ body {
   text-align: center;
   color: var(--title-color);
   background-color: var(--accent-color);
+  width: 216px;
+  padding:10px 32px;
+  border: none;
+  border-radius: 5px;
+}
+.solution{
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .priorities{
   margin: 0 auto;
@@ -105,6 +108,9 @@ body {
 }
 .aspects-img{
   margin-bottom: 94px;
+}
+.aspects{
+  padding-top: 94px;
 }
 .priorities-title {
   font-family: "Roboto", sans-serif;
@@ -129,9 +135,6 @@ body {
   text-align: center;
   color: var(--pretitle-color);
 }
-.team-list{
-  padding-bottom: 94px;
-}
 .team-profession {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -142,6 +145,8 @@ body {
 }
 .team {
   background-color: var(--backround-color2);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-item {
   background-color: var(--title-color);
@@ -198,7 +203,7 @@ body {
   margin-bottom: 9px;
 }
 .footer{
-  padding: 60px 215px;
+  padding: 60px 0;
 }
 .types{
   margin: 0 auto;
@@ -210,4 +215,57 @@ body {
 }
 .works{
   margin-bottom: 94px;
+}
+.header-container {
+  display: flex;
+}
+.nav-list{
+  display: flex;
+  margin-top: 32px;
+  margin-left: 93px;
+}
+.contact-list{
+  display: flex;
+  margin-top: 32px;
+  margin-left: 344px;
+}
+.contact-item:last-child{
+  margin-right: 0;
+}
+.nav-item:last-child{
+  margin-right: 0;
+}
+.priorities-list{
+  display: flex;
+}
+.priorities-item{
+  margin-right: 30px;
+  width: 270px;
+}
+.priorities-item:last-child{
+  margin-right: 0;
+}
+.aspects-list{
+  display: flex;
+  justify-content: space-between;
+}
+.team-list{
+  display: flex;
+  justify-content: space-between;
+}
+.team-item{
+  width: 270px;
+}
+.team-img{
+  width: 270px;
+}
+.team-name{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.team-profession{
+  margin-bottom: 30px;
+}
+.footer-list{
+  margin-top: 20px;
 }
