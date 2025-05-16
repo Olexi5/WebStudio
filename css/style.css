@@ -28,7 +28,7 @@ body {
   font-size: 26px;
   line-height: 100%;
   letter-spacing: 3%;
-  margin: 24px 0 25px 0;
+  margin: 24px 0px 25px 0px;
 }
 .nav-item, .contact-item{
   margin-right:50px;
@@ -174,6 +174,9 @@ body {
   line-height: 1.62;
   text-align: center;
   color: var(--pretitle-color);
+  padding: 6px 22px;
+  border: none;
+  border-radius: 4px;
 }
 .types-btn:hover {
   background-color: var(--accent-color);
@@ -205,13 +208,8 @@ body {
 .footer{
   padding: 60px 0;
 }
-.types{
-  margin: 0 auto;
-  margin-top: 94px;
-  margin-bottom: 50px;
-}
 .works-item{
-  margin: 30px;
+  width: 370px;
 }
 .works{
   margin-bottom: 94px;
@@ -221,8 +219,9 @@ body {
 }
 .nav-list{
   display: flex;
-  margin-top: 32px;
   margin-left: 93px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .contact-list{
   display: flex;
@@ -268,4 +267,29 @@ body {
 }
 .footer-list{
   margin-top: 20px;
+}
+.types-list{
+  display: flex;
+  gap: 8px;
+  width: 575px;
+  margin: 0 auto;
+}
+.types{
+  margin: 0 auto;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.works-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.works-names{
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+}
+.works-types{
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
