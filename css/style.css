@@ -101,6 +101,11 @@ body {
 .solution {
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(
+    to top,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ), url(../images/Img-bac.jpg);
 }
 .priorities {
   margin: 0 auto;
@@ -150,6 +155,8 @@ body {
 }
 .team-item {
   background-color: var(--title-color);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .footer-link {
   color: var(--text-color);
@@ -181,10 +188,16 @@ body {
 .types-btn:hover {
   background-color: var(--accent-color);
   color: var(--title-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .works-item {
   background-color: var(--title-color);
   border: 1px solid var(--border-color);
+}
+.works-item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .works-names {
   font-family: "Roboto", sans-serif;
@@ -294,7 +307,7 @@ body {
   margin-bottom: 20px;
   margin-left: 24px;
 }
-.priorities-item::before{
+.priorities-item::before {
   content: "";
   display: block;
   width: 270px;
@@ -305,15 +318,15 @@ body {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.priorities-item:nth-child(1):before{
+.priorities-item:nth-child(1):before {
   background-image: url(../images/antenna.png);
 }
-.priorities-item:nth-child(2):before{
+.priorities-item:nth-child(2):before {
   background-image: url(../images/clock.png);
 }
-.priorities-item:nth-child(3):before{
+.priorities-item:nth-child(3):before {
   background-image: url(../images/diagram.png);
 }
-.priorities-item:nth-child(4):before{
+.priorities-item:nth-child(4):before {
   background-image: url(../images/astronaut.png);
 }
