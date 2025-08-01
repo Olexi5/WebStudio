@@ -112,8 +112,10 @@ body {
   margin: 0 auto;
   margin-top: 94px;
 }
-.aspects-img {
+.aspects-item {
+  position: relative;
   margin-bottom: 94px;
+  height: 294px;
 }
 .aspects {
   padding-top: 94px;
@@ -388,11 +390,11 @@ body {
   border-radius: 4px;
 }
 .clients-link:focus,
-.clients-link:hover{
+.clients-link:hover {
   border: 1px solid var(--accent-color);
 }
 .clients-link:focus .clients-svg,
-.clients-link:hover .clients-svg{
+.clients-link:hover .clients-svg {
   fill: #2196f3;
 }
 .clients-list {
@@ -484,11 +486,26 @@ body {
   border: none;
   border-radius: 4px;
 }
-.mailing-svg{
+.mailing-svg {
   width: 24px;
   height: 24px;
   fill: #ffffff;
 }
-.footer-list{
+.footer-list {
   width: 231px;
+}
+.aspects-title {
+  font-family: "Roboto", sans-serif;
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  background-color: #2f303acc;
+  padding: 27px 0px;
+  width: 100%;
+  bottom: 0;
 }
