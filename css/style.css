@@ -666,6 +666,6 @@ body {
   border: none;
 }
 .modal-label:hover .label-svg,
-.modal-label:focus .label-svg {
+.modal-input:focus + .label-svg {
   fill:var(--accent-color);
 }
