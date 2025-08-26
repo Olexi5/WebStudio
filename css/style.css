@@ -200,6 +200,7 @@ body {
   padding: 6px 22px;
   border: none;
   border-radius: 4px;
+  transition: backround-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .types-btn:hover,
 .types-btn:focus {
@@ -700,7 +701,7 @@ body {
   color: var(--title-color);
   padding: 63px 24px;
   transform: translateY(150%);
-  transition: transform 0.2s ease-out;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .works-item:hover .works-text,
 .works-item:focus .works-text {
